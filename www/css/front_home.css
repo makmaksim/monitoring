@@ -1,0 +1,201 @@
+.edit_fields_btn{
+    position: absolute;
+    display: none;
+    right: 52px;
+    top: 0px;
+    cursor: pointer;
+    padding: 5px;
+    background: #DCD8D8;
+    border: 1px solid #cacaca;
+    z-index: 10;
+}
+
+.edit_params_user_btn{
+    position: absolute;
+    display: none;
+    right: 26px;
+    top: 0px;
+    cursor: pointer;
+    padding: 5px;
+    background: #DCD8D8;
+    border: 1px solid #cacaca;
+    z-index: 10;
+}
+
+.remove_user_btn{
+    position: absolute;
+    display: none;
+    right: 0;
+    top: 0px;
+    cursor: pointer;
+    padding: 5px;
+    background: #DCD8D8;
+    border: 1px solid #cacaca;
+    z-index: 10;
+}
+
+.fields_block{
+    position: relative;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+}
+
+.fields_block:hover{
+    border-color: rgb(245, 241, 241);
+}
+
+.fields_block:hover .edit_fields_btn,
+.fields_block:hover .remove_user_btn,
+.fields_block:hover .edit_params_user_btn{
+    display: block;
+}
+
+.tab-content{
+    padding: 10px 0;
+}
+
+.tab-pane{
+    position: relative;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+}
+
+.tab-pane .col-md-10 .fields_in_cell{
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.tab-pane .edit_fields_cell_btn{
+    position: absolute;
+    display: none;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    padding: 5px;
+    background: #DCD8D8;
+    border: 1px solid #cacaca;
+    z-index: 10;
+}
+
+.tab-pane .col-md-10 .fields_in_cell:hover{
+    border-color: rgb(245, 241, 241);
+}
+
+.tab-pane .fields_in_cell:hover .edit_fields_cell_btn{
+    display: block;
+}
+
+.fields_block .row, 
+.fields_cell_block .row{
+    padding: 5px 0;
+}
+
+.fields_block .row:nth-child(2n), 
+.fields_cell_block .row:nth-child(2n){
+    background: #FBFBFB;
+}
+
+.fields_block .row:hover, 
+.fields_cell_block .row .row:hover{
+    background: #F2F1FF;
+}
+
+.remove_cell_btn{
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 11px);
+    z-index: 10;
+}
+
+.fields_cell_block .nav-tabs>li>a{
+    padding-right: 30px;
+}
+
+.comment{
+    padding: 10px;
+}
+
+.comment .comment_title{
+    font-size: 12px;
+    color: #949494;
+}
+
+.comments_block{
+    margin: 30px 0;
+    background: #F3F3F3;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.comment .glyphicon{
+    cursor: pointer;
+}
+
+.files_list .file_block{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.files_list .file_block img{
+    width: 108px;
+    max-width: 100%;
+}
+.files_list .file_block .file_name{
+    display: block;
+    clear: both;
+    font-weight: bold;
+}
+
+.files_list .file_block .delete_file{
+    position: absolute;
+    display: none;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    padding: 5px;
+    background: #DCD8D8;
+    border: 1px solid #cacaca;
+    z-index: 10;
+}
+
+.files_list .file_block{
+    border: 1px solid transparent;
+}
+
+.files_list .file_block:hover{
+    border-color: rgb(245, 241, 241);
+}
+
+.files_list .file_block:hover .delete_file{
+    display: block;
+}
+
+.upload_file_form{
+    text-align: center;
+}
+
+.upload_file_form .file_input_block{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background: #eee;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+    padding: 40px 0;
+    width: 108px;
+}
+
+.upload_file_form .file_input_block input{
+    position: absolute;
+    top: 0; 
+    right: 0;
+    font-size: 200px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+

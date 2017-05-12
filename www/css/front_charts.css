@@ -1,0 +1,6 @@
+.chart_block{
+    display: inline-block;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 40px;
+}

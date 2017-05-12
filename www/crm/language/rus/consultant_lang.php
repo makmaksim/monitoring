@@ -1,0 +1,30 @@
+<?php
+  
+$lang['new_cons_form_title'] = 'Новый консультант';
+$lang['add_new_cons_btn'] = 'Новый консультант';
+$lang['site_adress'] = 'Адрес сайта';
+$lang['path_to_cons'] = 'Путь до консультанта';
+$lang['user_label'] = 'Оператор';
+$lang['add_cons'] = 'Добавить оператора';
+$lang['error_save_mess'] = 'Ошибка сохранения';
+$lang['error_not_users'] = 'Не сохранено! Необходимо добавить операторов';
+$lang['error_select_user_in_list'] = 'Не сохранено! Необходимо выбирать операторов из списка';
+$lang['api_key_label'] = 'Ключ API для формы';
+$lang['api_key_title_text'] = 'При генерации нового ключа, приложения, использующие старый ключ перестанут работать';
+$lang['api_key_generate_text'] = 'Сгенерировать новый ключ';
+$lang['cons_id_label'] = 'ID консультанта';
+$lang['users_list_online'] = 'Пользователи онлайн';
+$lang['users_all_list_text'] = 'Всего';
+$lang['users_list_text'] = 'Назначенных к Вам';
+$lang['cons_module_open'] = 'Консультант открыт';
+$lang['cons_active'] = 'Активность';
+$lang['cons_user_status'] = 'Статус';
+$lang['cons_opened_pages'] = 'Просмотренные страницы';
+$lang['cons_user_geo'] = 'Регион пользователя';
+$lang['you_text'] = 'Вы';
+$lang['send_mess_placeholder'] = 'Введите сообщение и нажмите Enter';
+$lang['cons_module_status'] = 'Статус модуля';
+$lang['cons_module_closed'] = 'Закрыт';
+$lang['cons_module_open'] = 'Открыт';
+$lang['new_name_label'] = 'Переименовать пользователя';
+$lang['new_name_placeholder'] = 'Новое имя';

@@ -1,0 +1,157 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    height: 100%;
+}
+
+#body{
+    min-height: 100%;
+}
+
+.main{
+    padding: 0 20px 100px 20px;
+}
+
+.messages{
+    margin: 0 20px;
+}
+
+.mess_type_error{
+    background: #FFEDED;
+    padding: 10px 20px;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.mess_type_success{
+    background: #ECFFE7;
+    padding: 10px 20px;
+    border: 1px solid #00BB0E;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.checkbox {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+
+.checkbox + label {
+  cursor: pointer;
+}
+
+.checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox:not(checked) + label {
+  position: relative; 
+  padding: 10px 0 0 60px; 
+}
+
+.checkbox:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+
+.checkbox:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  transition: all .2s; 
+}
+
+.checkbox:checked + label:before {
+  background: #337ab7;
+}
+
+.checkbox:checked + label:after {
+  left: 26px;
+}
+
+.checkbox:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
+
+.page_title{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-group-addon.glyphicon{
+    top: 0;
+}
+
+.pagination{
+    margin: 0;
+}
+
+.count_in_page, .input_cip{
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 55px !important;
+    margin-right: 10px;
+}
+
+.input_cip{
+    width: 45px !important;
+}
+
+.modal-header{
+    margin-bottom: 20px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    min-height: 50px;
+    margin-top: -50px;
+}
+
+
+.red{
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.not_valid{
+    border-color: red !important;
+}
+
+.user_status_0:hover,
+.user_status_0{
+    color: #E60303;
+    text-decoration: none;
+}
+
+.user_status_1:hover,
+.user_status_1{
+    color: orange;
+    text-decoration: none;
+}
+
+.user_status_2:hover,
+.user_status_2{
+    color: #009A00;
+    text-decoration: none;
+}

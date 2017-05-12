@@ -1,0 +1,25 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+$lang['add_user'] = 'Создать пользователя';
+$lang['create_cell'] = 'Создать вкладку';
+$lang['cell_name'] = 'Имя вкладки';
+$lang['password'] = 'Пароль';
+$lang['login'] = 'Логин';
+$lang['filter_label'] = 'Поиск';
+$lang['field_text'] = 'Поле';
+$lang['filter_form_val'] = 'Значение';
+$lang['filter_button'] = 'Найти';
+$lang['filter_button_clean'] = 'Очистить';
+$lang['all_count_text'] = 'Всего ';
+$lang['clean_sort_text'] = 'Сбросить сортировку';
+$lang['edit_user_text'] = 'Редактировать';
+$lang['remove_user_text'] = 'Удалить';
+$lang['delete_text'] = 'Вы подтверждаете удаление?';
+$lang['params_user_text'] = 'Параметры';
+$lang['new_user_success'] = '<a href="/home/%s" target="_blank">Пользователь успешно создан</a>';
+$lang['new_user_error'] = 'Ошибка создания пользователя';
+$lang['filter_group_text'] = 'Сгруппировать по';
+$lang['last_active_text_undefined'] = 'Никогда';
+$lang['last_active_text'] = 'Последняя активность: ';
+$lang['login_isset_text'] = 'Пользователь с таким логином уже существует';
+$lang['export_text'] = 'Экспорт';

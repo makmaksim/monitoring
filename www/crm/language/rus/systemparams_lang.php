@@ -1,0 +1,35 @@
+<?php
+  $lang['email_template_tab'] = 'Шаблоны сообщений';
+  $lang['email_template_system'] = 'Шаблон системных сообщений';
+  $lang['email_params_tab'] = 'Email';
+  $lang['send_system_messages'] = 'Отправлять уведомления?';
+  $lang['enable_vk_messages'] = 'Использовать Вконтакте для уведомлений?';
+  $lang['sender'] = 'Отправитель';
+  $lang['sender_title'] = 'Имя отправителя или название организации';
+  $lang['email_protocol'] = 'Протокол';
+  $lang['smtp_user'] = 'Системный Email <br>(Имя пользователя SMTP)';
+  $lang['smtp_pass'] = 'Пароль для smtp';
+  $lang['smtp_host'] = 'smtp сервер';
+  $lang['smtp_port'] = 'smtp порт';
+  $lang['smtp_crypto'] = 'Защита smtp';
+  $lang['mailtype'] = 'Tип почты (HTML или text)';
+  $lang['mail_send_edit_user'] = 'Редактирование полей';
+  $lang['mail_send_edit_user_title'] = 'Отправляет уведомление пользователю об изменение его информации';
+  $lang['system_template_rec_error'] = 'Ошибка записи в файл!';
+  $lang['mail_system_params'] = 'Параметры почты системы';
+  $lang['mail_system_actions'] = 'События для отправки почты клиентам';
+  $lang['mail_system_actions_sotr'] = 'События для отправки почты сотрудникам';
+  $lang['mail_new_cell'] = 'Создание вкладки';
+  $lang['mail_delete_cell'] = 'Удаление вкладки';
+  $lang['mail_send_new_user'] = 'Создание пользователя';
+  $lang['mail_add_comment'] = 'Создание комментария';
+  $lang['mail_edit_comment'] = 'Редактирование комментария';
+  $lang['mail_comments_delete'] = 'Удаление комментариев';
+  $lang['mail_upload_files'] = 'Загрузка файлов';
+  $lang['vk_params_tab'] = 'Вконтакте';
+  $lang['vk_api_id'] = 'ID приложения';
+  $lang['vk_secret_key'] = 'Защищенный ключ';
+  $lang['vk_notice'] = '* Обратите внимание, нельзя отправлять пользователю более 1 уведомления в час (3 в сутки)';
+  $lang['email_group_from'] = 'Группа события';
+  $lang['email_group_to'] = 'Группа получения уведомления';
+  

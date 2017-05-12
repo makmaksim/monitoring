@@ -1,0 +1,32 @@
+
+.users_list table{
+    border-spacing: 0px;
+}
+
+.users_list table td{
+    padding: 3px 5px 0px 3px;
+    border: 1px solid #cacaca;
+}
+
+.users_list table td:first-child,
+.users_list table td:nth-child(2){
+    width: 24px;
+    text-align: center;
+}
+
+.users_list table thead th{
+    padding: 5px 0;
+    text-align: center;
+}
+
+.sort_btn, .clean_sort{
+    cursor: pointer;
+}
+
+.sort_btn:hover{
+    text-decoration: underline;
+}
+
+#fixed_userlist_table th{
+    background: #fff;
+}
